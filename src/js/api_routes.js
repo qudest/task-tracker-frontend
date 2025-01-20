@@ -4,5 +4,6 @@ export const api_routes={
     baseURL: baseURL,
     login: baseURL + '/auth/login',
     register: baseURL + '/user',
-    user: baseURL + '/user'
+    user: baseURL + '/user',
+    tasks: baseURL + '/tasks'
 }
