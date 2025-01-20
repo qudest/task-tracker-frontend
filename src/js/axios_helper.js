@@ -1,7 +1,7 @@
 import axios from "axios";
 import { api_routes } from "./api_routes.js";
 
-export const request = axios.create({
+const request = axios.create({
     baseURL: api_routes.baseURL,
     headers: {
         "Content-Type": "application/json",
@@ -20,3 +20,5 @@ request.interceptors.request.use(
         return Promise.reject(error);
     }
 );
+
+export default request;
