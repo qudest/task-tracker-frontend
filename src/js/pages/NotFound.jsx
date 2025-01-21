@@ -5,9 +5,9 @@ const NotFound = () => {
         <div className="container vh-100 d-flex justify-content-center align-items-center">
             <div className="text-center">
                 <h1 className="display-1 text-danger">404</h1>
-                <p className="lead">Упс! Страница не найдена.</p>
-                <p>К сожалению, мы не смогли найти запрашиваемую вами страницу.</p>
-                <a href="/" className="btn btn-primary mt-4">Вернуться на главную</a>
+                <p className="lead">Oops! Page not found.</p>
+                <p>Unfortunately, we could not find the page you requested.</p>
+                <a href="/" className="btn btn-primary mt-4">Back to Home</a>
             </div>
         </div>
     );
