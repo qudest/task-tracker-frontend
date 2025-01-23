@@ -22,9 +22,9 @@ function TaskList({
     };
 
     const handleInputChange = (e) => {
-        const trimmedValue = e.target.value.trim();
-        setNewTaskTitle(trimmedValue);
-        setIsError(trimmedValue === '');
+        const value = e.target.value;
+        setNewTaskTitle(value);
+        setIsError(value.trim() === '');
     };
 
     const undoneTasks = tasks.filter((t) => !t.completed);
